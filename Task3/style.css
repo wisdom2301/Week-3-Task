@@ -1,0 +1,79 @@
+content {
+ @media (min-width:375px){
+display: flex;
+flex-direction: column;
+ }   
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.container {
+    font-family: Karla;
+    color: hsl(256, 26%, 20%);
+    display: flex;
+}
+.whole {
+    background-color: hsl(256, 26%, 20%);
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.p {
+    color: white;
+    font-size: 20px;
+    margin-top: -40px;
+    margin: 30px;
+}
+.h1 {
+    color: white;
+    font-size: 60px;
+    margin: 30px;
+}
+.button1 {
+    background-color: transparent;
+    border-color:black;
+    padding: 6px;
+}
+.button2 {
+    background-color: transparent;
+    border-color: white;
+    padding: 6px;
+    margin: 30px;
+    color: white;
+}
+.whole2 {
+    background-color: hsl(256, 26%, 20%);
+    width: 850px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.whole3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.h2{
+    font-size: 70px;
+}
+.h3{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 40px;
+}
+.button3 {
+    background-color: transparent;
+    border-color: white;
+    padding: 10px;
+    margin: 50px;
+    color: white;
+}
+.new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
