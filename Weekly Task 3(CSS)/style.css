@@ -1,0 +1,96 @@
+#menu {
+    width:400px;
+    height:500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.container {
+    font-family: Karla;
+    color: hsl(270, 9%, 17%);
+    display: flex;
+}
+.whole {
+    background-color: hsl(270, 9%, 17%);
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.p {
+    color: white;
+    font-size: 16px;
+    margin-top: -40px;
+    margin: 30px;
+}
+.h1 {
+    color: white;
+    font-size: 60px;
+    margin: 30px;
+}
+.button1 {
+    background-color: transparent;
+    border-color:black;
+    padding: 6px;
+}
+.button2 {
+    background-color: transparent;
+    border-color: white;
+    padding: 6px;
+    margin: 30px;
+    color: white;
+}
+.whole2 {
+    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+    background-color: hsl(270, 9%, 17%);
+    width: 850px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.whole3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+.h2{
+    font-size: 70px;
+    margin: 120px;
+}
+.h3{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin: 40px;
+}
+.button3 {
+    background-color: transparent;
+    border-color: white;
+    padding: 10px;
+    margin: 50px;
+    color: white;
+}
+#best {
+    color: hsl(216, 30%, 68%);
+    margin: 20px;
+    text-align: justify;
+}
+#new {
+    display: flex;
+    justify-content: space-between;
+}
+#newid {
+    justify-content: space-evenly;
+    margin: 15px;
+}
+#whot {
+    text-transform: uppercase;
+    text-anchor: middle;
+    color: solid black;
+}
